@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://alinajill.github.io/TMDRA24/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "Example 2 manifest TMDRA 2024",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "An example manifest with a house and a balloon",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Alina Jill Simeone",
+  "sequences" : [ {
+    "@id" : "http://b3eb786e-3adc-4166-aed9-a8e7c18f17aa",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://10e442f1-81c8-44c9-8122-eedb79ef01e3",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas 1",
+      "height" : 960,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b5fb20c1-5610-4529-89df-148efd2a9ee4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://alinajill.github.io/TMDRA24/images/cheng-lin-XwDz24ddEog-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://alinajill.github.io/TMDRA24/images/cheng-lin-XwDz24ddEog-unsplash",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 960,
+          "width" : 640
+        },
+        "on" : "http://10e442f1-81c8-44c9-8122-eedb79ef01e3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1117ffcc-ef59-4d53-a0b8-84862ebc256b",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas 2",
+      "height" : 960,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://28af21a8-9773-4b11-8375-dae847081abc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://alinajill.github.io/TMDRA24/images/igor-sporynin-yvR9V-RAz7E-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://alinajill.github.io/TMDRA24/images/igor-sporynin-yvR9V-RAz7E-unsplash",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 960,
+          "width" : 640
+        },
+        "on" : "http://1117ffcc-ef59-4d53-a0b8-84862ebc256b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
