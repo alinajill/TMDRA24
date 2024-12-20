@@ -5,7 +5,7 @@
   "label" : "Example manifest TMDRA 2024",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "An example manifest with a house",
+    "@value" : "An example manifest with a house and a balloon",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
