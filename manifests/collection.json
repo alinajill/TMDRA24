@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://alinajill.github.io/TMDRA24/manifests/manifesthouse.json",
     "label" : "Example manifest TMDRA 2024"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://alinajill.github.io/TMDRA24/manifests/manifest2.json",
+    "label" : "Example manifest TMDRA 2024"
   } ]
 }
